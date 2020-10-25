@@ -49,13 +49,6 @@ final class CurrentDataVM {
         return formatter
     }()
 
-    private let dateFormatter: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.timeStyle = .none
-        formatter.dateStyle = .medium
-        return formatter
-    }()
-
     init() {
         needToUpdateView = BehaviorSubject<Void>(value: ())
         observableErrors = BehaviorSubject<Error?>(value: nil)
@@ -213,7 +206,7 @@ private extension CurrentDataVM {
                     title: L10n.currentDataAppActivations(formattedValue(data.activationsTotal)),
                     subtitle: L10n.currentDataAppFrom(
                         formattedValue(data.activationsYesterday, showSign: true),
-                        dateFormatter.string(from: data.appDate ?? Date())
+                        DateFormatter.baseDateFormatter.string(from: data.appDate ?? Date())
                     )
                 ),
                 Item(
@@ -221,7 +214,7 @@ private extension CurrentDataVM {
                     title: L10n.currentDataAppKeyPublishers(formattedValue(data.keyPublishersTotal)),
                     subtitle: L10n.currentDataAppFrom(
                         formattedValue(data.keyPublishersYesterday, showSign: true),
-                        dateFormatter.string(from: data.appDate ?? Date())
+                        DateFormatter.baseDateFormatter.string(from: data.appDate ?? Date())
                     )
                 ),
                 Item(
@@ -229,7 +222,7 @@ private extension CurrentDataVM {
                     title: L10n.currentDataAppNotifications(formattedValue(data.notificationsTotal)),
                     subtitle: L10n.currentDataAppFrom(
                         formattedValue(data.notificationsYesterday, showSign: true),
-                        dateFormatter.string(from: data.appDate ?? Date())
+                        DateFormatter.baseDateFormatter.string(from: data.appDate ?? Date())
                     )
                 )
             ])
@@ -238,7 +231,7 @@ private extension CurrentDataVM {
 
     func updateFooter() {
         if let lastFetchedDate = AppSettings.currentDataLastFetchDate {
-            footer = L10n.currentDataFooter(dateFormatter.string(from: lastFetchedDate))
+            footer = L10n.currentDataFooter(DateFormatter.baseDateFormatter.string(from: lastFetchedDate))
         }
     }
 
