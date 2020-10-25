@@ -27,6 +27,11 @@
 		804B204525458390007701F0 /* NewRiskEncounterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B204325458390007701F0 /* NewRiskEncounterVC.swift */; };
 		804B20552545AEC5007701F0 /* CurrentDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B20542545AEC5007701F0 /* CurrentDataCell.swift */; };
 		804B20562545AEC5007701F0 /* CurrentDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B20542545AEC5007701F0 /* CurrentDataCell.swift */; };
+		804B205D2545AEF8007701F0 /* HelpArticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B205B2545AEF8007701F0 /* HelpArticleVC.swift */; };
+		804B205E2545AEF8007701F0 /* HelpArticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B205B2545AEF8007701F0 /* HelpArticleVC.swift */; };
+		804B205F2545AEF8007701F0 /* HelpSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B205C2545AEF8007701F0 /* HelpSearchVC.swift */; };
+		804B20602545AEF8007701F0 /* HelpSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B205C2545AEF8007701F0 /* HelpSearchVC.swift */; };
+		804B206B2545D6A0007701F0 /* SwiftyMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 804B206A2545D6A0007701F0 /* SwiftyMarkdown */; };
 		804BE48A24D9A11A00D40C07 /* ReportEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BE48924D9A11A00D40C07 /* ReportEntities.swift */; };
 		804BE48D24D9A30A00D40C07 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 804BE48C24D9A30A00D40C07 /* Alamofire */; };
 		805192A024AF8E2700765392 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8051929F24AF8E2700765392 /* RxCocoa */; };
@@ -35,7 +40,6 @@
 		805192A624AF8E2700765392 /* RxKeyboard in Frameworks */ = {isa = PBXBuildFile; productRef = 805192A524AF8E2700765392 /* RxKeyboard */; };
 		805192AA24AF8E2700765392 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 805192A924AF8E2700765392 /* DeviceKit */; };
 		805192AC24AF8E2700765392 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 805192AB24AF8E2700765392 /* Reachability */; };
-		805192AE24AF8E2700765392 /* SwiftyMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 805192AD24AF8E2700765392 /* SwiftyMarkdown */; };
 		8051FDA3245ACD8F00B2D5EA /* ExposureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8051FDA2245ACD8F00B2D5EA /* ExposureService.swift */; };
 		8053CCFC2538A2A000C1820E /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053CCFB2538A2A000C1820E /* Callback.swift */; };
 		8053CCFD2538A2A000C1820E /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053CCFB2538A2A000C1820E /* Callback.swift */; };
@@ -122,7 +126,6 @@
 		80A660CD2524A40000E97EA3 /* RxRealm in Frameworks */ = {isa = PBXBuildFile; productRef = 80A660CC2524A40000E97EA3 /* RxRealm */; };
 		80AB9BCB24AF8CBD0088D256 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 80AB9BCA24AF8CBD0088D256 /* DeviceKit */; };
 		80AB9BCE24AF8D0B0088D256 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 80AB9BCD24AF8D0B0088D256 /* Reachability */; };
-		80AB9BD124AF8D550088D256 /* SwiftyMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 80AB9BD024AF8D550088D256 /* SwiftyMarkdown */; };
 		80B94555242B7B460052CD9F /* ActiveAppVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B94554242B7B460052CD9F /* ActiveAppVM.swift */; };
 		80B94557242B96560052CD9F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B94556242B96560052CD9F /* NavigationController.swift */; };
 		80BB47642422865B00F552FC /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB47632422865B00F552FC /* Button.swift */; };
@@ -281,6 +284,8 @@
 		804B203E254581B1007701F0 /* RiskyEncounterHelpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskyEncounterHelpVM.swift; sourceTree = "<group>"; };
 		804B204325458390007701F0 /* NewRiskEncounterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRiskEncounterVC.swift; sourceTree = "<group>"; };
 		804B20542545AEC5007701F0 /* CurrentDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentDataCell.swift; sourceTree = "<group>"; };
+		804B205B2545AEF8007701F0 /* HelpArticleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpArticleVC.swift; sourceTree = "<group>"; };
+		804B205C2545AEF8007701F0 /* HelpSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSearchVC.swift; sourceTree = "<group>"; };
 		804BE48924D9A11A00D40C07 /* ReportEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportEntities.swift; sourceTree = "<group>"; };
 		8051FDA2245ACD8F00B2D5EA /* ExposureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureService.swift; sourceTree = "<group>"; };
 		8053CCFB2538A2A000C1820E /* Callback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callback.swift; sourceTree = "<group>"; };
@@ -428,12 +433,12 @@
 				809F9D9224AF8C3700D34CC9 /* RxKeyboard in Frameworks */,
 				80AB9BCB24AF8CBD0088D256 /* DeviceKit in Frameworks */,
 				80D2345124E2FDD200F684AA /* Crypto in Frameworks */,
+				804B206B2545D6A0007701F0 /* SwiftyMarkdown in Frameworks */,
 				809F9D8F24AF8C2900D34CC9 /* RxDataSources in Frameworks */,
 				80A660CD2524A40000E97EA3 /* RxRealm in Frameworks */,
 				8091E08224CB3CDF00E0E877 /* AlamofireImage in Frameworks */,
 				80AB9BCE24AF8D0B0088D256 /* Reachability in Frameworks */,
 				809F9D8A24AF8BFB00D34CC9 /* RxSwift in Frameworks */,
-				80AB9BD124AF8D550088D256 /* SwiftyMarkdown in Frameworks */,
 				804BE48D24D9A30A00D40C07 /* Alamofire in Frameworks */,
 				80FC71BC2477180400F86389 /* SwiftProtobuf in Frameworks */,
 				9033C80125A5023DB6B1BF45 /* Pods_eRouska_Dev.framework in Frameworks */,
@@ -455,7 +460,6 @@
 				80DF5FB924CB579E00332D25 /* AlamofireImage in Frameworks */,
 				805192AC24AF8E2700765392 /* Reachability in Frameworks */,
 				805192A024AF8E2700765392 /* RxCocoa in Frameworks */,
-				805192AE24AF8E2700765392 /* SwiftyMarkdown in Frameworks */,
 				80FC71BE2477184000F86389 /* SwiftProtobuf in Frameworks */,
 				80F3131724E3FE9100A93CCD /* Alamofire in Frameworks */,
 			);
@@ -809,6 +813,8 @@
 				80CA44DB244B3769008E22F8 /* HelpVM.swift */,
 				8064DF84244F3FFD005E8AA3 /* AboutVC.swift */,
 				8064DF88244F4026005E8AA3 /* AboutVM.swift */,
+				804B205C2545AEF8007701F0 /* HelpSearchVC.swift */,
+				804B205B2545AEF8007701F0 /* HelpArticleVC.swift */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -937,12 +943,12 @@
 				809F9D9124AF8C3700D34CC9 /* RxKeyboard */,
 				80AB9BCA24AF8CBD0088D256 /* DeviceKit */,
 				80AB9BCD24AF8D0B0088D256 /* Reachability */,
-				80AB9BD024AF8D550088D256 /* SwiftyMarkdown */,
 				8091E08124CB3CDF00E0E877 /* AlamofireImage */,
 				804BE48C24D9A30A00D40C07 /* Alamofire */,
 				800E611324DAE98B00C63567 /* Zip */,
 				80D2345024E2FDD200F684AA /* Crypto */,
 				80A660CC2524A40000E97EA3 /* RxRealm */,
+				804B206A2545D6A0007701F0 /* SwiftyMarkdown */,
 			);
 			productName = "BT-Tracking";
 			productReference = 8054C0AD241D492F008907B8 /* eRouska.app */;
@@ -973,7 +979,6 @@
 				805192A524AF8E2700765392 /* RxKeyboard */,
 				805192A924AF8E2700765392 /* DeviceKit */,
 				805192AB24AF8E2700765392 /* Reachability */,
-				805192AD24AF8E2700765392 /* SwiftyMarkdown */,
 				80DF5FB824CB579E00332D25 /* AlamofireImage */,
 				80F3131424E3FE8500A93CCD /* Zip */,
 				80F3131624E3FE9100A93CCD /* Alamofire */,
@@ -1021,12 +1026,12 @@
 				809F9D9024AF8C3700D34CC9 /* XCRemoteSwiftPackageReference "RxKeyboard" */,
 				80AB9BC924AF8CBD0088D256 /* XCRemoteSwiftPackageReference "DeviceKit" */,
 				80AB9BCC24AF8D0B0088D256 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
-				80AB9BCF24AF8D540088D256 /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */,
 				8091E08024CB3CDF00E0E877 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 				804BE48B24D9A30A00D40C07 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				800E611224DAE98B00C63567 /* XCRemoteSwiftPackageReference "Zip" */,
 				80D2344F24E2FDD200F684AA /* XCRemoteSwiftPackageReference "swift-crypto" */,
 				80A660CB2524A40000E97EA3 /* XCRemoteSwiftPackageReference "RxRealm" */,
+				804B20692545D6A0007701F0 /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */,
 			);
 			productRefGroup = 8054C0AE241D492F008907B8 /* Products */;
 			projectDirPath = "";
@@ -1250,10 +1255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804B205D2545AEF8007701F0 /* HelpArticleVC.swift in Sources */,
 				8054C0D624200BEC008907B8 /* LogSegmentController.swift in Sources */,
 				D64BE02324F79AE000B751B6 /* TextView.swift in Sources */,
 				80631A96242CA27800EB0B6C /* HelpVC.swift in Sources */,
 				D6340C6224C1F46D00E550A1 /* Version.swift in Sources */,
+				804B205F2545AEF8007701F0 /* HelpSearchVC.swift in Sources */,
 				80BE3FD124460DF600D0C810 /* KeyboardHandler.swift in Sources */,
 				804B20552545AEC5007701F0 /* CurrentDataCell.swift in Sources */,
 				8054C0E12420EEFF008907B8 /* Logger.swift in Sources */,
@@ -1403,6 +1410,7 @@
 				8053CD092538A61C00C1820E /* ExposureList.swift in Sources */,
 				8084DEF824AF872C001FBB16 /* ReportService.swift in Sources */,
 				D6CD28E924CF24DD005847AA /* PrivacyVM.swift in Sources */,
+				804B205E2545AEF8007701F0 /* HelpArticleVC.swift in Sources */,
 				D6231CCC24F6610C0023BDC8 /* CurrentData.swift in Sources */,
 				802AFE4525135BC0004954AF /* Notifications.swift in Sources */,
 				80026D9924FE492600BBDB36 /* VerificationEntities.swift in Sources */,
@@ -1430,6 +1438,7 @@
 				D6CD28EF24CF24DD005847AA /* FirstActivationVM.swift in Sources */,
 				8083D8D4244640A0007FA4E9 /* Collection.swift in Sources */,
 				8084DEF124AF84F3001FBB16 /* AppDependency.swift in Sources */,
+				804B20602545AEF8007701F0 /* HelpSearchVC.swift in Sources */,
 				8083D8D5244640A0007FA4E9 /* ButtonsBackgroundView.swift in Sources */,
 				8083D8D7244640A0007FA4E9 /* Auth.swift in Sources */,
 				D6CD28EB24CF24DD005847AA /* PrivacyVC.swift in Sources */,
@@ -1617,7 +1626,7 @@
 				CODE_SIGN_ENTITLEMENTS = "BT-Tracking/Supporting Files/BT-Tracking-Debug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = PDX4N72JDU;
 				INFOPLIST_FILE = "BT-Tracking/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -1644,7 +1653,7 @@
 				CODE_SIGN_ENTITLEMENTS = "BT-Tracking/Supporting Files/BT-Tracking.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = PDX4N72JDU;
 				INFOPLIST_FILE = "BT-Tracking/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -1670,7 +1679,7 @@
 				CODE_SIGN_ENTITLEMENTS = "BT-Tracking/Supporting Files/BT-Tracking-Debug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = PDX4N72JDU;
 				INFOPLIST_FILE = "BT-Tracking/Supporting Files/Info-Prod.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -1698,7 +1707,7 @@
 				CODE_SIGN_ENTITLEMENTS = "BT-Tracking/Supporting Files/BT-Tracking.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = PDX4N72JDU;
 				INFOPLIST_FILE = "BT-Tracking/Supporting Files/Info-Prod.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -1755,6 +1764,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.0.0;
+			};
+		};
+		804B20692545D6A0007701F0 /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/augard/SwiftyMarkdown";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.4;
 			};
 		};
 		804BE48B24D9A30A00D40C07 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
@@ -1821,14 +1838,6 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		80AB9BCF24AF8D540088D256 /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SimonFairbairn/SwiftyMarkdown";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.2;
-			};
-		};
 		80D2344F24E2FDD200F684AA /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-crypto";
@@ -1852,6 +1861,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 800E611224DAE98B00C63567 /* XCRemoteSwiftPackageReference "Zip" */;
 			productName = Zip;
+		};
+		804B206A2545D6A0007701F0 /* SwiftyMarkdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804B20692545D6A0007701F0 /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */;
+			productName = SwiftyMarkdown;
 		};
 		804BE48C24D9A30A00D40C07 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1887,11 +1901,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 80AB9BCC24AF8D0B0088D256 /* XCRemoteSwiftPackageReference "Reachability.swift" */;
 			productName = Reachability;
-		};
-		805192AD24AF8E2700765392 /* SwiftyMarkdown */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80AB9BCF24AF8D540088D256 /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */;
-			productName = SwiftyMarkdown;
 		};
 		8091E08124CB3CDF00E0E877 /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1932,11 +1941,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 80AB9BCC24AF8D0B0088D256 /* XCRemoteSwiftPackageReference "Reachability.swift" */;
 			productName = Reachability;
-		};
-		80AB9BD024AF8D550088D256 /* SwiftyMarkdown */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80AB9BCF24AF8D540088D256 /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */;
-			productName = SwiftyMarkdown;
 		};
 		80C913D12524D9EF0013C1DD /* RxRealm */ = {
 			isa = XCSwiftPackageProductDependency;
